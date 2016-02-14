@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 <div class="home">
-  <h1 class="page-heading">Blog</h1>
-
   <ul class="post-list">
     {% for post in site.categories.blog %}
       <li>

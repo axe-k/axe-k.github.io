@@ -3,8 +3,6 @@ layout: default
 title: Travel
 ---
 <div class="home">
-  <h1 class="page-heading">Travel</h1>
-
   <ul class="post-list">
     {% for post in site.categories.travel %}
       <li>
